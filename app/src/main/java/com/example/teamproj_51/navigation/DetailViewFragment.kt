@@ -76,15 +76,15 @@ class DetailViewFragment : Fragment(){
 
             Glide.with(p0.itemView.context).load(contentDTOs[p1].imageUrl).into(viewholder.detailviewitem_profile_image)
 
-            viewholder.detailviewitem_favorite_imageview.setOnClickListener{
+            viewholder.detailviewitem_favorite_image.setOnClickListener{
                 favoriteEvent(p1)
             }
 
             if(contentDTOs[p1].favorites.containsKey(uid)){
                 //좋아요 누름
-                viewholder.detailviewitem_favorite_imageview.setImageResource(R.drawable.ic_favorite)
+                viewholder.detailviewitem_favorite_image.setImageResource(R.drawable.ic_favorite)
             }else{
-                viewholder.detailviewitem_favorite_imageview.setImageResource(R.drawable.ic_favorite_border)
+                viewholder.detailviewitem_favorite_image.setImageResource(R.drawable.ic_favorite_border)
             }
 
             viewholder.detailviewitem_profile_image.setOnClickListener{

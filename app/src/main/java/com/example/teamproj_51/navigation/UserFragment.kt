@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.myapplication.navigation.model.FollowDTO
 import com.example.teamproj_51.LoginActivity
 import com.example.teamproj_51.MainActivity
 import com.example.teamproj_51.R
